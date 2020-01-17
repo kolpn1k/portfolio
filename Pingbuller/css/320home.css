@@ -1,0 +1,79 @@
+@media screen and (max-width: 480px){
+	.top{
+		height: 517px;
+	}
+	.container{
+		width: 320px;
+	}
+	.main{
+	    width: 320px;	
+	}
+	header{
+		width: 320px;
+	}
+	header nav ul{
+		width: 245px;
+	}
+	.slider{
+		width: 320px;
+	}
+	.toptxt{
+		background: rgba(0,0,0,0);
+	}
+	.txt{
+		margin: auto;
+		height: 60px;
+		width: 217px;
+	}
+	.txt2{
+		position: relative;
+		top: -15px;
+	}
+	img[alt="iph"]{
+		width: 0;
+		height: 0;
+		position: absolute;
+	}
+	.pt{
+		width: 280px;
+	}
+	.imn{
+		width: 255px;
+		height: 272px;
+	}
+	.imn p{
+		width: 182px;
+	}
+	.imn h3{
+		width: 93px;
+		height: 40px;
+	}
+	.man{
+		top: 30px;
+	}
+	.fromtheblog{
+		width: 350px;
+	}
+	.fromtheblog div{
+		padding-left: 70px;
+	}
+	.icons{
+		height: 425px;
+		background: #f9f9f9 url(../img/logos320.png) no-repeat center; 
+	}
+	.overfooter{
+		height: 0;
+		width: 0;
+	}
+	.block2{
+		width: 0;
+		height: 0;
+	}
+	.container nav ul{
+		display: none;
+	}
+	.end{
+		background: url(../img/foot320.jpg);
+		background-size: cover; 
+	}
+}

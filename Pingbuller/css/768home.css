@@ -1,0 +1,93 @@
+@media screen and (max-width: 960px){
+	header{
+		width: 768px;
+		height: 245px;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-bottom: 70px;
+	}
+	nav ul{
+		margin-top: 40px;
+	}
+	.toptxt{
+		justify-content: center;
+	}
+	.main{
+		width: 768px;
+	}
+	.txt{
+		width: 275px;
+		height: 220px;
+		margin-left: 25px;
+	}
+	.txt p{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	h2{
+		font-size: 48px;
+	}
+	.txt .txt2{
+		font-size: 24px;
+		width: 272px;
+		height: 30px;
+		overflow: hidden;
+	}
+	img[alt="iph"]{
+		margin-right: 35px;
+	}
+	.slider{
+		width: 768px;
+	}
+	.slider div{
+		left: 545px;
+	}
+	.container{
+		width: 768px;
+	}
+	h3{
+		font-size: 24px;
+	}
+	.block1{
+		width: 205px;
+	}
+	.block1 p{
+		margin-bottom: 15px;
+		height: 140px;
+		overflow: hidden;
+	}
+	.imn{
+		width: 315px;
+		height: 270px;
+	}
+	.imn::after{
+		border:0;
+		position: static;
+	}
+	.man{
+		top: 30px;
+	}
+	.imn p{
+		height: 138px;
+		overflow: hidden;
+	}
+	.imn h3{
+		width: 93px;
+	}
+	.pt{
+		width: 339px;
+	}
+	.fromtheblog{
+		width: 335px;
+	}
+	.block2{
+		width: 205px; 
+		height: 197px;
+	}
+	.end{
+		height: 202px;
+	}
+	.design{
+		margin-top: 103px;
+	}
+}
