@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+
+/*Parent*/
+
+.parent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to left, #DAE2F8, #D6A4A4);
+}
+
+/*Content*/
+
+.content{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.content > h2{
+    font-family: Arial, sans-serif;
+}
+
+/*Input*/
+
+input[placeholder="Login"], input[placeholder="Password"]{
+    font-family: Arial, sans-serif;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input[placeholder="Login"]:focus, input[placeholder="Password"]:focus{
+    width: 200px;
+}
+
+input[placeholder="Login"]::placeholder, input[placeholder="Password"]::placeholder{
+    color: white;
+}
+
+input[placeholder="Login"]{
+    margin-top: 10px;
+}
+
+input[placeholder="Password"]{
+    margin: 10px 0;
+}
+
+/*Button*/
+
+button{
+    width: 75px;
+    height: 35px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 0px 0px 15px 0px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
